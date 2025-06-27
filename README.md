@@ -1,13 +1,49 @@
 # powerbi-sales-dashboard
-Sales Analysis Report (Power BI | Academic Project)
-Interactive Power BI dashboard built using the AdventureWorks2022 dataset to analyze sales trends and key business metrics.
+# 📊 Power BI Sales Analysis Dashboard - AdventureWorks 2022
 
-Key Highlights:
+This repository contains an academic project showcasing a Sales Analysis Dashboard built using PowerBI. The data is sourced from AdventureWorks 2022, a sample database provided by Microsoft for business intelligence and data analysis practice.
 
-Cleaned and transformed data with 100% accuracy
+## 📌 Project Objective
 
-Created 15+ DAX measures to track KPIs
+The main goal of this project is to analyze sales performance, customer behavior, and product trends to generate valuable business insights. The dashboard provides a visual representation of:
 
-Reduced analysis time by 30% through visual insights
+- Total Sales by Year and Region
+- Sales by Product Category and Subcategory
+- Customer Segmentation
+- Profit and Revenue Trends
+- Key Performance Indicators (KPIs)
 
-Automated updates, cutting manual work by 40% and enabling real-time reporting
+## 🛠 Tools & Technologies
+
+- Power BI Desktop
+- AdventureWorks 2022 Database
+- DAX (Data Analysis Expressions)
+- Power Query
+
+## 📈 Features
+
+- Interactive filters and slicers for custom analysis
+- Dynamic visualizations: bar charts, line graphs, maps, and cards
+- Drill-down functionality for detailed exploration
+- Clean and user-friendly layout
+
+## 🧩 Data Source
+
+- Database: [AdventureWorks 2022](https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/adventure-works)
+- **Tables Used**: `FactResellerSales`, `DimProduct`, `DimCustomer`, `DimGeography`, `DimDate`, etc.
+
+## 🔍 Insights
+
+Some key insights derived from the dashboard:
+- Best-selling products and top-performing regions
+- Monthly and yearly sales trends
+- Sales contribution by reseller and customer segments
+
+## 📂 File Structure
+
+```bash
+📁 AdventureWorks_Sales_Analysis
+│
+├── AdventureWorks_Sales.pbix     # Power BI Dashboard File
+├── README.md                     # Project documentation
+└── Sample_Images/                # (Optional) Screenshots of the dashboard
